@@ -16,6 +16,74 @@
       <img class="logo" src="img/logo.svg" alt="" />
       <p class="fs-6 fw-bold">आइतबार, ८ पुस, २०८०</p>
     </header>
+
+    <nav class="navbar py-0 bg-body-tertiary navbar-expand-lg border-top border-0.5 border-dark border-bottom">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 mt-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">समाचार</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">अर्थ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">राजनीति</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">विचार</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">समाज</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">खेल</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">रेमिटेन्स</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">चुनाव</a>
+              </li>
+            </ul>
+            <nav>
+                <ul class="d-flex mb-0 social">
+                    <li><i class="bi bi-youtube"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-clock-history"></i></li>
+                    <li><i class="bi bi-search"></i></li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </nav>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
