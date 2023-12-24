@@ -31,3 +31,121 @@ ul {
     }
   }
 }
+.bi-facebook {
+  font-size: 10px;
+  padding: 4px 7px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  background-color: #000;
+  opacity: 0.7;
+  color: #fff;
+  &:hover {
+    background-color: #4267b2;
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+}
+.bi-twitter-x {
+  font-size: 10px;
+  padding: 4px 7px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  background-color: #000;
+  opacity: 1;
+  color: #fff;
+  &:hover {
+    background-color: #323232;
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+}
+.bi-envelope {
+  font-size: 10px;
+  padding: 4px 7px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  background-color: #000;
+  opacity: 0.5;
+  color: #fff;
+  &:hover {
+    background-color: #969696;
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+}
+.bi-share-fill {
+  font-size: 10px;
+  padding: 4px 7px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  background-color: #000;
+  opacity: 0.3;
+  color: #fff;
+  &:hover {
+    background-color: #aad961;
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+}
+.fa-viber {
+  font-size: 10px;
+  padding: 8px 7px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  background-color: #000;
+  opacity: 0.7;
+  color: #fff;
+  &:hover {
+    background-color: #8943e6;
+    opacity: 1;
+    transform: translateY(-5px);
+  }
+}
+.samachar-main-box {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+.multimedia-feat img {
+  height: 300px;
+  object-fit: cover;
+}
+.cat-item img {
+  height: 160px;
+  object-fit: cover;
+}
+
+.big-news img {
+  height: 196px;
+  object-fit: cover;
+}
+.mukhya-samachar {
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    .label-rib {
+      transform: translateX(-65px);
+    }
+  }
+  .label-rib {
+    left: 0;
+    bottom: 105px;
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    transition: all 0.5s ease;
+  }
+}
+.cat-tags .cat-name{
+  top: 0;
+  z-index: 2;
+  background: #888;
+  color: #fff;
+  padding: 0 20px;
+  font-size: 22px;
+  height: 40px;
+  line-height: 46px;
+}
+.ddo img{
+  object-fit: cover;
+}
