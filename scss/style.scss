@@ -136,7 +136,7 @@ ul {
     transition: all 0.5s ease;
   }
 }
-.cat-tags .cat-name{
+.cat-tags .cat-name {
   top: 0;
   z-index: 2;
   background: #888;
@@ -146,6 +146,11 @@ ul {
   height: 40px;
   line-height: 46px;
 }
-.ddo img{
+.ddo img {
   object-fit: cover;
+}
+.pannel-top {
+  background: #222222;
+  color: #fff;
+  padding: 48px 0 16px 0;
 }

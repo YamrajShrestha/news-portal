@@ -176,4 +176,10 @@ ul {
 .ddo img {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.pannel-top {
+  background: #222222;
+  color: #fff;
+  padding: 48px 0 16px 0;
 }/*# sourceMappingURL=style.css.map */
